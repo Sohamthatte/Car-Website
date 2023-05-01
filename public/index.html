@@ -39,5 +39,64 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Cars for Sale</a></li>
+          <li><a href="#">Sell Your Car</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Welcome to Car Buying and Selling Website</h1>
+      <p>Find your dream car or sell your car today!</p>
+      <!-- Add your main content here -->
+    </main>
+    <footer>
+      <p>&copy; 2023 Car Buying and Selling Website</p>
+    </footer>
+    <script>
+      // Get the search input and button
+const searchInput = document.querySelector('#searchInput');
+const searchButton = document.querySelector('#searchButton');
+
+// Attach an event listener to the search button
+searchButton.addEventListener('click', () => {
+  const searchTerm = searchInput.value;
+  
+  // Perform a search using the entered search term
+  // and display the results on the page
+});
+
+// Get the form for selling a car and attach an event listener to it
+const sellForm = document.querySelector('#sellForm');
+sellForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+  
+  // Get the form data and submit it to the server using an AJAX request
+});
+
+// Get the button for adding a car to the shopping cart
+const addToCartButton = document.querySelector('#addToCartButton');
+addToCartButton.addEventListener('click', () => {
+  // Add the car to the shopping cart
+});
+
+// Get the button for removing a car from the shopping cart
+const removeFromCartButton = document.querySelector('#removeFromCartButton');
+removeFromCartButton.addEventListener('click', () => {
+  // Remove the car from the shopping cart
+});
+
+// Get the button for completing a purchase
+const checkoutButton = document.querySelector('#checkoutButton');
+checkoutButton.addEventListener('click', () => {
+  // Submit the shopping cart to the server and complete the purchase
+});
+
+    </script>
   </body>
 </html>
